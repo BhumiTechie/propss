@@ -1,13 +1,16 @@
+import { useContext } from "react";
+import { todocontext } from "./Context/TodoContext";
 
-import React from 'react';
-import Input from './Components/Input';
+
+
 
 const App = () => {
+   const [tasks , settasks] = 
   return (
     <div>
-      <Input type="text" placeholder="Full Name" />
-    </div>
-  );
-};
 
-export default App;
+    </div>
+  )
+}
+
+export default App
